@@ -30,4 +30,4 @@ jobs:
           cat script.sh
 
       - name: Show first and last name
-        run: echo $var.First_Name
+        run: echo var.FIRST_NAME
