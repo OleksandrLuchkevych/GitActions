@@ -37,4 +37,4 @@ jobs:
 
       - name: Do script
         run: |
-          sh script.sh
+          cat script.sh
