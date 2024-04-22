@@ -30,4 +30,4 @@ jobs:
           cat script.sh
 
       - name: Show first and last name
-        run: echo "My first name is ${{ vars.FIRST_NAME }}"
+        run: echo "My first name is ${{ vars.FIRST_NAME }} and my last name is ${ vars.LAST_NAME }"
