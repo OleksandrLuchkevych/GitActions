@@ -33,5 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project,
+          echo test, and deploy your project.
+
+      - name: Do script
+        run: |
           sh script.sh
